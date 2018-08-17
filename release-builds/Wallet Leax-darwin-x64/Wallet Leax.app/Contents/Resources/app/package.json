@@ -1,0 +1,21 @@
+{
+  "name": "leax-coin-desktop-wallet",
+  "productName": "Wallet Leax",
+  "version": "1.0.0",
+  "description": "A desktop wallet for Leax Coin.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . leax-coin --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Leax Coin Wallet\"",
+    "package-linux": "electron-packager . leax-coin --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/96x96.png --prune=true --out=release-builds",
+    "create-installer-mac": "electron-installer-dmg './release-builds/Wallet Leax-darwin-x64/Wallet Leax.app' leax-coin --out=release-builds --overwrite --icon=assets/icons/mac/icon.icns"
+  },
+  "author": "Mukarram Pasha <mukarram.pasha96@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "latest",
+    "electron-installer-dmg": "^2.0.0",
+    "electron-packager": "^12.1.0"
+  }
+}
