@@ -9,8 +9,7 @@
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
     "package-win": "electron-packager . leax-coin --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Leax Coin Wallet\"",
     "package-linux": "electron-packager . leax-coin --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/96x96.png --prune=true --out=release-builds",
-    "create-installer-mac": "electron-installer-dmg ./release-builds/leax-coin-darwin-x64/leax-coin.app leax-coin --out=release-builds --overwrite --icon=assets/icons/mac/icon.icns",
-    "create-installer-win": "node installers/windows/createinstaller.js"
+    "create-installer-mac": "electron-installer-dmg ./release-builds/leax-coin-darwin-x64/leax-coin.app leax-coin --out=release-builds --overwrite --icon=assets/icons/mac/icon.icns"
   },
   "author": "Mukarram Pasha <mukarram.pasha96@gmail.com>",
   "license": "MIT",
