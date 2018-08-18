@@ -1,25 +1,25 @@
 # Wallet-Desktop
 
 - Clone Repository "git clone https://github.com/Leax-Foundation/Wallet-Desktop.git"
-<code>  cd in wallet-desktop <code> 
-<code> npm install <code> 
-<code>  npm start <code> 
+"  cd in wallet-desktop "
+" npm install v
+"  npm start " 
 
 ## Building Aplication
 
 ### Linux
 
-<code>  npm run package-linux <code> 
+" npm run package-linux "
   
 ### Mac
 
-<code> npm run package-mac <code> 
+" npm run package-mac "
   
-<code> npm run create-installer-mac <code> 
+" npm run create-installer-mac "
   
   
 ### Windows
 
-<code>  npm run package-win <code> 
+" npm run package-win "
 
 
