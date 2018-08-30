@@ -5,7 +5,7 @@
     width="125px;">
 </p>
 
-<h1 align="center">Leaxcoin Wallet</h1>
+<h1 align="center">Leaxcoin</h1>
 
 <p align="center"> Desktop Wallet for the Leaxcoin </p>
 
@@ -51,13 +51,14 @@
 
 ### Windows
 
-* Run 'leax-coin.exe'
+* Run file 'leax-coin.exe'
 
 ### MacOS
 
-* Run leax-coin.dmg
+* Run file 'leax-coin.dmg'
 
 ### Linux
 
-* Run:
+* Run command 
+
 ``` ./leax-coin ```
