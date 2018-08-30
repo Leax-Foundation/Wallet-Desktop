@@ -1,9 +1,17 @@
-# Leaxcoin Wallet for Desktop
+
+<p align="center">
+  <img
+    src="https://i.imgur.com/R1McUCV.jpg"
+    width="125px;">
+</p>
+
+<h1 align="center">Leaxcoin Wallet</h1>
 
 Leaxcoin Wallet is a desktop light wallet that allows you to interact with assets on the blockchain.
+<p align="center">
 
-![leaxcoin](https://i.imgur.com/LzGVy2s.png
-)
+  <img src="https://i.imgur.com/LzGVy2s.png">
+</p>
 
 ## Overview
 
