@@ -8,10 +8,6 @@
 <h1 align="center">Leaxcoin Wallet</h1>
 
 Leaxcoin Wallet is a desktop light wallet that allows you to interact with assets on the blockchain.
-<p align="center">
-
-  <img src="https://i.imgur.com/LzGVy2s.png">
-</p>
 
 ## Overview
 
@@ -20,6 +16,12 @@ Leaxcoin Wallet is a desktop light wallet that allows you to interact with asset
 * Import/Export wallet accounts 
 * View balance
 * Send to recipients
+<p align="center">
+
+  <img src="https://i.imgur.com/LzGVy2s.png">
+</p>
+
+
 
 ## Run Application 
 
