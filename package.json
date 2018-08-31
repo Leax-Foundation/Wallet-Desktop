@@ -1,7 +1,7 @@
 {
   "name": "leax-coin-desktop-wallet",
   "productName": "Wallet Leaxcoin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A desktop wallet for Leaxcoin.",
   "main": "main.js",
   "scripts": {

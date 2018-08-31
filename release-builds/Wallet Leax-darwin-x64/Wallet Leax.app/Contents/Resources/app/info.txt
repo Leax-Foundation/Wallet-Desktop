@@ -1,4 +1,0 @@
-npm install
-npm run package-mac
-npm run create-installer-mac
-https://www.christianengvall.se/dmg-installer-electron-app/
